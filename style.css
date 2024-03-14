@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+a{
+    color: white;
+    
+}
+body{
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+nav{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border: 1px solid;
+} 
+.titleNav, .menuNav{
+    padding: 15px;
+}
+
+.JuntarMainAside {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 85vh;
+}
+
+main{
+    border: 1px solid;
+    background-color: lightblue;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ArticlesMain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.TextMain {
+    width: 500px;
+    padding: 10px;
+}
+
+aside{
+    background-color: lightpink;
+    width: 20vw;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+
+}
+.sectionMainAside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionMainAside > article {
+    margin: 10px; 
+}
+
+footer{
+    border: 1px solid;
+    background-color: grey;
+    height: 5vh;
+    padding: 15px;
+}
